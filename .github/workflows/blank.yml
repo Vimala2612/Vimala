@@ -23,9 +23,9 @@ jobs:
     - name: Docker Pull
       run: docker pull hello-world
     - name: Docker Tag
-      run: docker tag hello-world vimala2612/hello-world
+      run: docker tag hello-world vimala/hello-world
     - name: Docker Push
-      run: docker push vimala2612/hello-world
+      run: docker push vimala/hello-world
   Logintodockerhub2:
     runs-on: ubuntu-latest
     environment: QA
