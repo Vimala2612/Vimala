@@ -20,11 +20,11 @@ jobs:
        username: ${{secrets.DOCKERHUBUSERNAME}}
        password: ${{secrets.DOCKERHUBPASSWORD}}
     - name: Docker Pull
-      run: docker pull hello-world
+      run: docker pull hello-world123
     - name: Docker Tag
-      run: docker tag hello-world vimala/hello-world
+      run: docker tag hello-world vimala2612/hello-world123
     - name: Docker Push
-      run: docker push vimala/hello-world
+      run: docker push vimala2612/hello-world123
   Logintodockerhub2:
     runs-on: ubuntu-latest
     environment: QA
